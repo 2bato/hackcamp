@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 function Header() {
     return(
-    <Link to="/">
+    <Link to="/" style={{ textDecoration: "none"}}>
   <header className="App-header">
     <img className="App-logo" src={headerlogo} />
     <title>JointPal</title>
