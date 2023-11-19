@@ -3,15 +3,13 @@ import React from 'react';
 import "../App.css";
 import logo from "../logo.svg";
 import headerlogo from "../stretch-logo.png";
+import Header from '../components/header';
 
 
 const hip = () => {
   return (
     <>
-    <header className="App-header">
-        <img src={headerlogo} className="App-logo" />
-        <title>JointPal</title>
-    </header>
+    <Header />
     <div>
       <header className="exercise-header">
         <title>This is an exercise</title>

@@ -11,6 +11,7 @@ import Shoulder from "./stretches/shoulder";
 import Wrist from "./stretches/wrist";
 import Knee from "./stretches/knee";
 import Hip from "./stretches/hip";
+import Bodymap from "./bodymap";
 
 const router = createBrowserRouter([
   {
@@ -45,6 +46,12 @@ const router = createBrowserRouter([
     path: "/Hip",
     element: <Hip />,
   },
+  {
+    path: "/bodymap",
+    element: <Bodymap />,
+  },
+
+
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

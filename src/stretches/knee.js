@@ -1,32 +1,29 @@
 
 import React from 'react';
 import "../App.css";
-import logo from "../logo.svg";
+import gif1 from "./kneestretches/CalfRaises.webp";
 import headerlogo from "../stretch-logo.png";
-
+import Header from '../components/header';
 
 const knee = () => {
     return (
       <>
-      <header className="App-header">
-          <img src={headerlogo} className="App-logo" />
-          <title>JointPal</title>
-      </header>
+    <Header />
       <div>
         <header className="exercise-header">
-          <title>This is an exercise</title>
+          <title>Calf Raises</title>
         </header>
   
         <div className="row">
           <div className="box-container">
             <div>
-              <img src={logo} alt="Logo" />
+              <img className="gif1" src={gif1} alt="Logo" />
               <p>Placeholder Image</p>
             </div>
           </div>
   
           <div className="box-description">
-            <img src={logo} alt="Logo" />
+            <img src={gif1} alt="Logo" />
             <p>Placeholder Image</p>
           </div>
         </div>
@@ -35,19 +32,20 @@ const knee = () => {
   
       <div>
         <header className="exercise-header">
+          
           <title>This is an exercise</title>
         </header>
   
         <div className="row">
           <div className="box-container">
             <div>
-              <img src={logo} alt="Logo" />
+              <img src={gif1} alt="Logo" />
               <p>Placeholder Image</p>
             </div>
           </div>
   
           <div className="box-description">
-            <img src={logo} alt="Logo" />
+            <img src={gif1} alt="Logo" />
             <p>Placeholder Image</p>
           </div>
         </div>
