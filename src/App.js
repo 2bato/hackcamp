@@ -2,6 +2,7 @@ import { logDOM } from "@testing-library/react";
 import "./App.css";
 import logo from "./stretch-logo.png";
 import Bodymap from "./bodymap.js";
+import Diagnosis from "./diagnosis.js";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <title>JointPal</title>
       </header>
       <Bodymap />
+      <Diagnosis />
     </div>
   );
 }
