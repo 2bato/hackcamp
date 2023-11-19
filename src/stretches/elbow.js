@@ -27,6 +27,7 @@ const Elbow = () => {
         </div>
       </div>
     </div>
+    
 
     <div>
       <header className="exercise-header">
@@ -47,9 +48,6 @@ const Elbow = () => {
         </div>
       </div>
     </div>
-
-
-
     </>
 
   );
