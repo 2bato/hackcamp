@@ -9,6 +9,8 @@ import Hand from "./stretches/hand";
 import Neck from "./stretches/neck";
 import Shoulder from "./stretches/shoulder";
 import Wrist from "./stretches/wrist";
+import Knee from "./stretches/knee";
+import Hip from "./stretches/hip";
 
 const router = createBrowserRouter([
   {
@@ -34,6 +36,14 @@ const router = createBrowserRouter([
   {
     path: "/wrist",
     element: <Wrist />,
+  },
+  {
+    path: "/knee",
+    element: <Knee />,
+  },
+  {
+    path: "/Hip",
+    element: <Hip />,
   },
 ]);
 
