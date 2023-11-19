@@ -1,13 +1,10 @@
-
 import React from 'react';
-import "../App.css";
-import logo from "../logo.svg";
-import headerlogo from "../stretch-logo.png";
+import './stretches.css'; // Make sure to create a corresponding CSS file with your styles
+import logo from "../logo.svg"
 import Header from '../components/header';
 import BackButton from '../components/BackButton';
 
-
-const shoulder = () => {
+const Portfolio = () => {
   return (
     <> 
     <Header />
@@ -26,4 +23,4 @@ const shoulder = () => {
   );
 };
 
-export default shoulder;
+export default Portfolio;
