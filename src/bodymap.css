@@ -45,3 +45,31 @@
     top: 20%;
     left: 39%;
   }
+
+  .elbowRight{
+    top: 33%;
+    right: 37.5%;
+  }
+
+  .kneeRight {
+    top: 65%;
+    right: 43.5%;
+  }
+
+  .wristRight {
+    top: 45%;
+    right: 34.5%;
+  }
+  .shoulderRight {
+    top: 20%;
+    right: 39.5%;
+  }
+
+  .hipLeft{
+    top: 44.5%;
+    left: 42%;
+  }
+  .hipRight{
+    top: 44.5%;
+    right: 42.3%;
+  }
