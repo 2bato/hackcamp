@@ -5,29 +5,25 @@
 .App-logo {
   height: 8vmin;
   pointer-events: none;
-  background-color: aliceblue;
 }
 
 .App-header {
   background-color: rgb(18, 18, 123);
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-content: center;
   justify-content: center;
   color: rgb(255, 255, 255);
-  padding: 3vh;
+  padding-block: 2vh;
   font-weight: bolder;
 }
 
 .App-header title {
   background-color: rgb(18, 18, 123);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  display: inline;
+  align-self: center;
   font-size: calc(10px + 2vmin);
   color: rgb(255, 255, 255);
-  padding: 3vh;
   font-weight: bolder;
 }
 

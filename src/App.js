@@ -1,6 +1,6 @@
 import { logDOM } from "@testing-library/react";
 import "./App.css";
-import logo from "./stretch-logo.jpg";
+import logo from "./stretch-logo.png";
 import Bodymap from "./bodymap.js";
 
 function App() {
