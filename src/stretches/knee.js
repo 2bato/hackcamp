@@ -1,12 +1,12 @@
 
 import React from 'react';
-import "../App.css";
-import gif1 from "./kneestretches/CalfRaises.webp";
-import gif2 from "./kneestretches/HalfSquat.webp";
-import gif3 from "./kneestretches/HipAbduction.webp";
-import gif4 from "./kneestretches/StandingCalfStretch.webp";
-import gif5 from "./kneestretches/StraightLegRaise.webp";
-import gif6 from "./kneestretches/SupineHamstringStretch.webp";
+import './stretches.css'; 
+import kneegif1 from "./kneestretches/CalfRaises.webp";
+import kneegif2 from "./kneestretches/HalfSquat.webp";
+import kneegif3 from "./kneestretches/HipAbduction.webp";
+import kneegif4 from "./kneestretches/StandingCalfStretch.webp";
+import kneegif5 from "./kneestretches/StraightLegRaise.webp";
+import kneegif6 from "./kneestretches/SupineHamstringStretch.webp";
 import headerlogo from "../stretch-logo.png";
 import Header from '../components/header';
 import BackButton from '../components/BackButton';
@@ -17,47 +17,29 @@ const knee = () => {
       <>
     <Header />
     <BackButton />
-      <div>
-        <header className="exercise-header">
-          <title>Calf Raises</title>
-        </header>
-  
-        <div className="row">
-          <div className="box-container">
-            <div>
-              <img className="gif1" src={gif1} alt="Logo" />
-              <p>Placeholder Image</p>
-            </div>
-          </div>
-  
-          <div className="box-description">
-            <img src={gif1} alt="Logo" />
-            <p>Placeholder Image</p>
-          </div>
-        </div>
+    <div className="container">
+      <div className="image-side">
+        <img className="kneegif1" src={kneegif1} alt="stretch1" />
       </div>
+      <div className="text-side">
+        <h1>Travel photography portfolio</h1>
+        <p>Photography from all over the world by Pat Kay</p>
+        <a href="link-to-your-portfolio" className="view-portfolio-button">View portfolio</a>
+      </div>
+    </div>
       
   
-      <div>
-        <header className="exercise-header">
-          
-          <title>Half Squat</title>
-        </header>
-  
-        <div className="row">
-          <div className="box-container">
-            <div>
-              <img src={gif2} alt="Logo" />
-              <p>Placeholder Image</p>
-            </div>
-          </div>
-  
-          <div className="box-description">
-            <img src={gif1} alt="Logo" />
-            <p>Placeholder Image</p>
-          </div>
-        </div>
+    <div className="container">
+    <div className="text-side">
+        <h1>Travel photography portfolio</h1>
+        <p>Photography from all over the world by Pat Kay</p>
+        <a href="link-to-your-portfolio" className="view-portfolio-button">View portfolio</a>
       </div>
+      <div className="image-side">
+        <img className="kneegif2" src={kneegif2} alt="stretch1" />
+      </div>
+    </div>
+
       <div>
         <header className="exercise-header">
           
@@ -67,13 +49,13 @@ const knee = () => {
         <div className="row">
           <div className="box-container">
             <div>
-              <img src={gif3} alt="Logo" />
+              <img src={kneegif3} alt="Logo" />
               <p>Placeholder Image</p>
             </div>
           </div>
   
           <div className="box-description">
-            <img src={gif1} alt="Logo" />
+            <img src={kneegif1} alt="Logo" />
             <p>Placeholder Image</p>
           </div>
         </div>
@@ -87,13 +69,13 @@ const knee = () => {
         <div className="row">
           <div className="box-container">
             <div>
-              <img src={gif4} alt="Logo" />
+              <img src={kneegif4} alt="Logo" />
               <p>Placeholder Image</p>
             </div>
           </div>
   
           <div className="box-description">
-            <img src={gif1} alt="Logo" />
+            <img src={kneegif1} alt="Logo" />
             <p>Placeholder Image</p>
           </div>
         </div>
@@ -107,13 +89,13 @@ const knee = () => {
         <div className="row">
           <div className="box-container">
             <div>
-              <img src={gif5} alt="Logo" />
+              <img src={kneegif5} alt="Logo" />
               <p>Placeholder Image</p>
             </div>
           </div>
   
           <div className="box-description">
-            <img src={gif1} alt="Logo" />
+            <img src={kneegif1} alt="Logo" />
             <p>Placeholder Image</p>
           </div>
         </div>
@@ -127,13 +109,13 @@ const knee = () => {
         <div className="row">
           <div className="box-container">
             <div>
-              <img src={gif6} alt="Logo" />
+              <img src={kneegif6} alt="Logo" />
               <p>Placeholder Image</p>
             </div>
           </div>
   
           <div className="box-description">
-            <img src={gif1} alt="Logo" />
+            <img src={kneegif1} alt="Logo" />
             <p>Placeholder Image</p>
           </div>
         </div>
