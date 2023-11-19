@@ -11,6 +11,7 @@ import Shoulder from "./stretches/shoulder";
 import Wrist from "./stretches/wrist";
 import Knee from "./stretches/knee";
 import Hip from "./stretches/hip";
+import Ankle from "./stretches/ankle";
 import Bodymap from "./bodymap";
 
 const router = createBrowserRouter([
@@ -50,8 +51,10 @@ const router = createBrowserRouter([
     path: "/bodymap",
     element: <Bodymap />,
   },
-
-
+  {
+    path: "/ankle",
+    element: <Ankle />,
+  },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

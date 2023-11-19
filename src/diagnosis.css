@@ -20,11 +20,12 @@
   
   .Diagnosis textarea {
     border: 10px solid rgb(169, 183, 240);
-    border-radius: 10px;
+    border-radius: 20px;
     margin-bottom: 40px;
     resize:none;
     width: auto;
     height: 20vmin;
+    font-size: large;
   }
   
   .Diagnosis .submit {
@@ -40,12 +41,12 @@
     align-self: center;
     padding: 5px;
     margin-top: 22vmin;
+    font-weight: bold;
   }
   
   .Diagnosis .response {
     margin-top: 20px;
     padding: 15px;
     background-color: #e7f5e9;
-    border-left: 5px solid #4CAF50;
     border-radius: 4px;
   }

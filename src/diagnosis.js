@@ -14,7 +14,7 @@ function Diagnosis() {
         {
           role: "system",
           content:
-            "Tell me whether I should stretch my elbow, knee, hip, neck, shoulder, wrists, or hands based on the symptoms I describe",
+            "Based on the symptoms you're told, recommend which area to stretch. Your options are elbow, hand, wrist, hip, knee, shoulder, neck, and ankles",
         },
         { role: "user", content: text },
       ];
@@ -28,7 +28,7 @@ function Diagnosis() {
         {
           headers: {
             Authorization:
-              "Bearer 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",
+              "Bearer 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",
             "Content-Type": "application/json",
           },
         }
@@ -61,7 +61,7 @@ function Diagnosis() {
 
       {response && (
         <div>
-          <h3>Generated Response:</h3>
+          <h3>Recommended Action:</h3>
           <p>{response}</p>
         </div>
       )}
