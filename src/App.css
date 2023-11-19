@@ -4,8 +4,9 @@
 
 .App-logo {
   height: 8vmin;
-  pointer-events: none;
+  cursor: pointer;
 }
+
 
 .App-header {
   background-color: rgb(18, 18, 123);
@@ -25,6 +26,11 @@
   font-size: calc(10px + 2vmin);
   color: rgb(255, 255, 255);
   font-weight: bolder;
+  cursor: pointer;
+}
+
+.App-header > img {
+  cursor: pointer;
 }
 
 .App-link {

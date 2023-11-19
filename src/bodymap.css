@@ -15,10 +15,13 @@
     border: none;
     border-radius: 50%;
     cursor: pointer;
+    transition: ease 0.3s;
   }
   
   button:hover {
-    background-color: rgb(78, 94, 152);
+    background-color: lightgreen;
+    transform: scale(1.2);
+    transition: ease 0.3s;
   }
   
   .neck {
