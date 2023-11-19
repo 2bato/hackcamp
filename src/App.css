@@ -40,6 +40,43 @@
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(360deg)2
   }
+}
+
+.box-container {
+  width: 30%;
+  border: 5px solid black;
+  padding: 20px;
+  margin: 30px;
+  margin-top: 50px;
+  border-radius: 10%;
+  background-color: beige;
+}
+
+.box-description {
+  width: 40%;
+  border: 5px solid black;
+  padding: 20px;
+  margin: 30px;
+  margin-top: 50px;
+  border-radius: 10%;
+  background-color: beige;
+}
+
+.row {
+  display: flex;
+
+}
+
+.exercise-header title {
+  margin-right: 500px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  font-weight: bolder;
 }

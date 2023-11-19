@@ -1,7 +1,7 @@
 import { logDOM } from "@testing-library/react";
 import "./App.css";
-import logo from "./stretch-logo.jpg";
-import Bodymap from "./bodymap.js";
+import bodymap from "./bodymap.jpg";
+import logo from "./stretch-logo.png";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <img src={logo} className="App-logo" />
         <title>JointPal</title>
       </header>
-      <Bodymap />
+      <img src={bodymap} className="App-bodymap" />
     </div>
   );
 }
