@@ -112,3 +112,43 @@
 }
 
 
+.arrow-button {
+  display: flex;
+  color: black;
+  background-color: grey;
+  border-radius: 20px;
+  transition: all .3s ease;
+  font-weight: bold;
+  cursor: pointer;
+  align-items: center;
+  font-size: 14px;
+  width: 10%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.arrow-button > .arrow {
+  width: 6px;
+  height: 6px;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  position: relative;
+  transform: rotate(-45deg);
+  margin-left: 6px;
+  transition: all .3s ease;;
+  margin-right: 2px;
+  opacity: 0;
+}
+
+
+.arrow-button:hover > .arrow {
+  transform: rotate(135deg) translate(2px, 2px);
+  color: black;
+  opacity: 1;
+}
+
+
+.arrow-button:hover {
+  background-color: lightgrey;
+  color: black;
+}
