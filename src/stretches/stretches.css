@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height as needed */
+  }
+  
+  .image-side {
+    width: 50%; /* Adjust the width as needed */
+    /* Add any additional styles for the image container */
+  }
+  
+  .image-side img {
+    width: 100%;
+    height: auto; /* This will keep the aspect ratio of the image */
+  }
+  
+  .text-side {
+    width: 50%; /* Adjust the width as needed */
+    padding: 20px; /* Adjust the padding as needed */
+    /* Add any additional styles for the text container */
+  }
+  
+  .text-side h1 {
+    font-size: 2rem; /* Adjust the font size as needed */
+    /* Add any additional styles for the header */
+  }
+  
+  .text-side p {
+    font-size: 1rem; /* Adjust the font size as needed */
+    /* Add any additional styles for the paragraph */
+  }
+  
+  .view-portfolio-button {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust the padding as needed */
+    background-color: #000; /* Adjust the background color as needed */
+    color: #fff; /* Adjust the text color as needed */
+    text-decoration: none;
+    /* Add any additional styles for the button */
+  }
