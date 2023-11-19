@@ -33,4 +33,28 @@
     background-color: #000; 
     color: #fff; 
     text-decoration: none;
+<<<<<<< HEAD
+=======
+    /* Add any additional styles for the button */
+  }
+
+  .kneegif1{
+    border-radius: 10%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+  
+    
+  }
+  
+  .kneegif2{
+    border-radius: 10%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+>>>>>>> f7698ca29d898fdcc7045b80e9bfcd306bcdc7a3
   }

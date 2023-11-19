@@ -41,6 +41,11 @@ const Bodymap = () => {
       <button className="test"></button>
       </Link>  
       
+      <Link to="/ankle">
+      <button className="ankleLeft"></button>
+      <button className="ankleRight"></button>
+      </Link>  
+
     </div>
   );
 };
