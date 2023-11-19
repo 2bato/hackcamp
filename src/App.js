@@ -10,7 +10,7 @@ function App() {
         <img src={logo} className="App-logo" />
         <title>JointPal</title>
       </header>
-      <img src={bodymap} className="App-bodymap" />
+      <Bodymap />
     </div>
   );
 }
