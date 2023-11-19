@@ -11,7 +11,8 @@ const Bodymap = () => {
       <button className="elbow"></button>
       <button className="shoulder"></button>
       <button className="knee"></button>
-      <button className="wrist"></button>
+      <button className="wrist"></button>     
+      <button className="hip"></button>
     </div>
   );
 };
