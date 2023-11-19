@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
-import axios from 'axios';
+import "./diagnosis.css";
+import React, { useState } from "react";
+import axios from "axios";
 
 function Diagnosis() {
   const [text, setText] = useState("");
@@ -10,20 +11,25 @@ function Diagnosis() {
 
     try {
       const conversation = [
-        { role: 'system', content: 'Tell me whether I should stretch my elbow, knee, hip, neck, shoulder, wrists, or hands based on the symptoms I describe' },
-        { role: 'user', content: text },
+        {
+          role: "system",
+          content:
+            "Tell me whether I should stretch my elbow, knee, hip, neck, shoulder, wrists, or hands based on the symptoms I describe",
+        },
+        { role: "user", content: text },
       ];
 
       const apiResponse = await axios.post(
-        'https://api.openai.com/v1/chat/completions',
+        "https://api.openai.com/v1/chat/completions",
         {
-          model: 'gpt-3.5-turbo',
+          model: "gpt-3.5-turbo",
           messages: conversation,
         },
         {
           headers: {
-            'Authorization': 'Bearer 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',
-            'Content-Type': 'application/json',
+            Authorization:
+              "Bearer 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",
+            "Content-Type": "application/json",
           },
         }
       );
@@ -32,7 +38,7 @@ function Diagnosis() {
         setResponse(apiResponse.data.choices[0].message.content);
       }
     } catch (error) {
-      console.error('Error:', error);
+      console.error("Error:", error);
     }
   };
 
@@ -41,13 +47,16 @@ function Diagnosis() {
   };
 
   return (
-    <div>
+    <div className="Diagnosis">
       <form onSubmit={handleSubmit}>
-        <label>
-          Enter your text:
-          <textarea value={text} onChange={handleTextChange} />
-        </label>
-        <button type="submit">Submit</button>
+        <textarea
+          placeholder="Describe your symptoms..."
+          value={text}
+          onChange={handleTextChange}
+        />
+        <button type="submit" className="submit">
+          Submit
+        </button>
       </form>
 
       {response && (

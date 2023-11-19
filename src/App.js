@@ -11,8 +11,10 @@ function App() {
         <img src={logo} className="App-logo" />
         <title>JointPal</title>
       </header>
-      <Bodymap />
-      <Diagnosis />
+      <div className="App-diagram">
+        <Bodymap />
+        <Diagnosis />
+      </div>
     </div>
   );
 }
