@@ -1,0 +1,50 @@
+.Diagnosis {
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: rgb(169, 183, 240);
+    display: flex;
+    flex-direction: column; /* Ensure flex direction is column */
+    margin-left: -120px;
+    margin-right: 120px;
+  }
+  
+  .Diagnosis form {
+    display: grid;
+    flex-direction: column; /* This makes sure that the children are stacked vertically */
+  }
+  
+  .Diagnosis label {
+    margin-bottom: 10px;
+  }
+  
+  .Diagnosis textarea {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    resize:none;
+    width: 60vmin;
+    height: 30vmin;
+  }
+  
+  .Diagnosis .submit {
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #201e90;
+    color: rgb(255, 255, 255);
+    transition: background-color 0.3s ease;
+    width: fit-content;
+    height: fit-content;
+    justify-self: center;
+    align-self: center;
+    margin-top: 37vmin;
+  }
+  
+  .Diagnosis .response {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e7f5e9;
+    border-left: 5px solid #4CAF50;
+    border-radius: 4px;
+  }
