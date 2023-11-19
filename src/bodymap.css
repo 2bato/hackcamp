@@ -26,22 +26,22 @@
     left: 48%;
   }
   
-  .elbow {
+  .elbowLeft {
     top: 33%;
     left: 37%;
   }
   
-  .knee {
+  .kneeLeft {
     top: 65%;
     left: 43%;
   }
   
-  .wrist {
+  .wristLeft {
     top: 45%;
     left: 34%;
   }
 
-  .shoulder {
+  .shoulderLeft {
     top: 20%;
     left: 39%;
   }
