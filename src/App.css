@@ -94,6 +94,22 @@
   flex-direction: row;
   align-content: center;
   justify-content: center;
+  max-width: 100%;
+
+  height: auto;
+
+  
+}
+
+.gif2{
+  border-radius: 10%;
+  margin-left: 25px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+
 }
 
 .arrow-button {
