@@ -6,7 +6,6 @@ import logo from "../logo.svg";
 
 const Elbow = () => {
   return (
-
     <>
     <div>
       <header className="exercise-header">

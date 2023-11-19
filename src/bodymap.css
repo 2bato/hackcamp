@@ -1,0 +1,47 @@
+.bodymap {
+    position: relative;
+  }
+  
+  .anatomy {
+    width: 40%;
+    height: auto;
+  }
+  
+  button {
+    position: absolute;
+    width: 4%;
+    height: 4.2%;
+    background-color: rgb(40, 69, 176);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: rgb(78, 94, 152);
+  }
+  
+  .neck {
+    top: 15%;
+    left: 48%;
+  }
+  
+  .elbowLeft {
+    top: 33%;
+    left: 37%;
+  }
+  
+  .kneeLeft {
+    top: 65%;
+    left: 43%;
+  }
+  
+  .wristLeft {
+    top: 45%;
+    left: 34%;
+  }
+
+  .shoulderLeft {
+    top: 20%;
+    left: 39%;
+  }
