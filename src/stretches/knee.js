@@ -9,11 +9,14 @@ import gif5 from "./kneestretches/StraightLegRaise.webp";
 import gif6 from "./kneestretches/SupineHamstringStretch.webp";
 import headerlogo from "../stretch-logo.png";
 import Header from '../components/header';
+import BackButton from '../components/BackButton';
+
 
 const knee = () => {
     return (
       <>
     <Header />
+    <BackButton />
       <div>
         <header className="exercise-header">
           <title>Calf Raises</title>
