@@ -33,11 +33,13 @@ const Bodymap = () => {
       </Link>
 
       <Link to="/wrist">
-      <button className="wrist"></button> 
+      <button className="wristLeft"></button> 
+      <button className="wristRight"></button>
       </Link>
 
       <Link to="/hip">
-      <button className="hip"></button>
+      <button className="hipLeft"></button>
+      <button className="hipRight"></button>
       </Link>  
       
     </div>
