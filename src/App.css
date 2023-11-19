@@ -65,14 +65,27 @@
 
 }
 
-.exercise-header title {
-  margin-right: 500px;
-  margin-top: 20px;
+.exercise-header title{
+  margin-left: 100px;
+  margin-top: 50px;
   display: flex;
-  flex-direction: column;
-  align-items: left;
+  align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: black;
   font-weight: bolder;
+  border-radius: 30%;
+  background-color: rgb(18, 18, 123);
+  width: 150px;
+  height: 100px;
+}
+
+.gif1{
+  border-radius: 10%;
+  margin-left: 25px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
 }
