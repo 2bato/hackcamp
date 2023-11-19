@@ -12,7 +12,7 @@ function App() {
         <title>JointPal</title>
       </header>
       <div className="App-diagram">
-        <Bodymap />
+        <Bodymap/>
         <Diagnosis />
       </div>
     </div>
