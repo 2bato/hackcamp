@@ -6,6 +6,18 @@
   display: flex;
   justify-content: center;
   align-items:flex-start;
+  margin: 6vmin;
+  margin-top: 1vmin;
+}
+
+.App-diagram > .Bodymap {
+  flex: 0 0 60%;
+  box-sizing: border-box;
+}
+
+.App-diagram > .Diagnosis {
+  flex: 0 0 40%;
+  box-sizing: border-box;
 }
 
 .App-logo {
