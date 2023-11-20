@@ -5,6 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider} from "react-router-dom";
 import Elbow from "./stretches/elbow";
+import Hand from "./stretches/hand";
 import Neck from "./stretches/neck";
 import Shoulder from "./stretches/shoulder";
 import Wrist from "./stretches/wrist";
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
   {
     path: "/elbow",
     element: <Elbow />,
+  },
+  {
+    path: "/hand",
+    element: <Hand />,
   },
   {
     path: "/neck",
