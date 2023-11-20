@@ -12,7 +12,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" />
-        <title>JointPal.ai</title>
+        <title>JointPal</title>
+        <button className="Sign-up-button"> Sign up </button>
+        <button className="Log-in-button"> Log in </button>
       </header>
       <div className="inspo-header">
       <div className="inspo-text">

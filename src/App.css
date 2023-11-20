@@ -207,3 +207,39 @@ h3 {
   margin-bottom: 25px;
 }
 
+
+
+.Sign-up-button {
+  display: flex;
+  margin-left: 950px;
+  border-radius: 1.5vmin;
+  width: fit-content;
+  height: fit-content;
+  padding: 1.5vmin;
+  background-color: white;
+  border-width: 1px;
+  border-color: black;
+}
+
+.Sign-up-button:hover {
+  background-color: #84BAE6;
+  color: #0C2D48;
+}
+
+.Log-in-button:hover {
+  background-color: #84BAE6;
+  color: #0C2D48;
+}
+
+.Log-in-button {
+  display: flex;
+  margin-left: 1030px;
+  border-radius: 1.5vmin;
+  width: fit-content;
+  height: fit-content;
+  padding: 1.5vmin;
+  background-color: white;
+  border-width: 1px;
+  border-color: #0C2D48;
+  border-style:solid;
+}
