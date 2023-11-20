@@ -1,5 +1,6 @@
 .bodymap {
     position: relative;
+    margin-left: 10vmin;
   }
   
   .anatomy {
@@ -75,4 +76,14 @@
   .hipRight{
     top: 44.5%;
     right: 42.3%;
+  }
+
+  .ankleLeft{
+    top: 85%;
+    left: 42%;
+  }
+
+  .ankleRight {
+    top: 85%;
+    right: 42%
   }

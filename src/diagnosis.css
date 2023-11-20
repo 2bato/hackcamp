@@ -28,6 +28,10 @@
     font-size: large;
   }
   
+  .Diagnosis textarea:focus {
+    outline: none;
+  }
+  
   .Diagnosis .submit {
     border: none;
     border-radius: 8px;
