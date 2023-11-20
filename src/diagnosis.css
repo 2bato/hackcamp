@@ -2,7 +2,7 @@
     margin: 50px auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius:15px;
-    background-color: rgb(169, 183, 240);
+    background-color: #4663ac;
     display: flex;
     flex-direction: column;
     width: 8%;
@@ -19,7 +19,7 @@
   }
   
   .Diagnosis textarea {
-    border: 10px solid rgb(169, 183, 240);
+    border: 10px solid #4663ac;
     border-radius: 20px;
     margin-bottom: 40px;
     resize:none;
@@ -32,8 +32,8 @@
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    background-color: #201e90;
-    color: rgb(255, 255, 255);
+    background-color: #6EADDF;
+    color: black;
     transition: background-color 0.3s ease;
     width: fit-content;
     height: fit-content;
@@ -43,10 +43,27 @@
     margin-top: 22vmin;
     font-weight: bold;
   }
+  .Diagnosis .submit:hover {
+    cursor: pointer;
+    background-color: #c1d8f0;
+    color: black;
+    transition: 0.3s ease;
+    width: fit-content;
+    height: fit-content;
+    justify-self: center;
+    align-self: center;
+    padding: 5px;
+    margin-top: 22vmin;
+    font-weight: bold;
+  }
+
+  .Diagnosis .submit:not(:hover) {
+    transition: 0.3s ease;
+  }
   
   .Diagnosis .response {
     margin-top: 20px;
     padding: 15px;
-    background-color: #e7f5e9;
+    background-color: #4663ac;
     border-radius: 4px;
   }
