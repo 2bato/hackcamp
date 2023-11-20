@@ -1,5 +1,5 @@
 import React from "react";
-import "./stretches.css";
+import "../App.css";
 import kneegif1 from "./kneestretches/CalfRaises.webp";
 import kneegif2 from "./kneestretches/HalfSquat.webp";
 import kneegif3 from "./kneestretches/HipAbduction.webp";
