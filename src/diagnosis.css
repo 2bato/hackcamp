@@ -63,8 +63,11 @@
   }
   
   .Diagnosis .response {
-    margin-top: 20px;
+    margin: 10px;
     padding: 15px;
     background-color: #84BAE6;
     border-radius: 4px;
+    font-weight: bold;
+    font-size: large;
+    color: black;
   }

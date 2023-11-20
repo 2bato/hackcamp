@@ -28,7 +28,7 @@ function Diagnosis() {
         {
           headers: {
             Authorization:
-              "Bearer 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",
+              "Bearer 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",
             "Content-Type": "application/json",
           },
         }
@@ -60,8 +60,8 @@ function Diagnosis() {
       </form>
 
       {response && (
-        <div>
-          <h3>Recommended Action:</h3>
+        <div className="response">
+          <p>Recommended Action:</p>
           <p>{response}</p>
         </div>
       )}
