@@ -1,6 +1,5 @@
 import React from "react";
 import "../App.css";
-import headerlogo from "../stretch-logo.png";
 import { Link } from "react-router-dom";
 
 
@@ -11,8 +10,6 @@ function BackButton() {
     </Link>
     );
 };
-
-
 
 
 export default BackButton;

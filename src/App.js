@@ -5,6 +5,8 @@ import Bodymap from "./bodymap.js";
 import Diagnosis from "./diagnosis.js";
 import stretchImage from "./newstretch.jpg"
 import { ScrollRestoration } from "react-router-dom";
+import downarrow from "./downarrow.png";
+
 function App() {
   return (
     <div className="App">
@@ -21,6 +23,8 @@ function App() {
         <img src={stretchImage} alt="Stretch-Image"></img>
       </div>
       </div>
+      
+      <img className="down-arrow" src={downarrow}></img>
 
       <div className="App-diagram">
         <Bodymap />

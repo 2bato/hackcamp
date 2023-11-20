@@ -200,5 +200,10 @@
 
 h3 {
   color: #84BAE6;
-
 }
+
+.down-arrow {
+  width: 2%;
+  margin-bottom: 25px;
+}
+
