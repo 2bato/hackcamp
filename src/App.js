@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" />
-        <title>JointPal</title>
+        <title>JointPal.ai</title>
       </header>
       <div className="inspo-header">
       <div className="inspo-text">
