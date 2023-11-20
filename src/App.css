@@ -202,3 +202,28 @@ h3 {
   color: #84BAE6;
 
 }
+
+.Log-in-button {
+  display: flex;
+  margin-left: 950px;
+  border-radius: 1.5vmin;
+  width: fit-content;
+  height: fit-content;
+  padding: 1.5vmin;
+  background-color: white;
+  border-width: 1px;
+  border-color: black;
+  border-style:solid;
+}
+
+.Sign-up-button {
+  display: flex;
+  margin-left: 1030px;
+  border-radius: 1.5vmin;
+  width: fit-content;
+  height: fit-content;
+  padding: 1.5vmin;
+  background-color: white;
+  border-width: 1px;
+  border-color: black;
+}

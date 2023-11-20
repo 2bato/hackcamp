@@ -11,6 +11,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" />
         <title>JointPal</title>
+        <button className="Log-in-button"> Log in </button>
+        <button className="Sign-up-button"> Sign up </button>
       </header>
       <div className="inspo-header">
       <div className="inspo-text">
