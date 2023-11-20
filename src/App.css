@@ -42,7 +42,7 @@
   display: inline;
   align-self: center;
   font-size: calc(10px + 2vmin);
-  color: rgb(255, 255, 255);
+  color: #0C2D48;
   font-weight: bolder;
   cursor: pointer;
 }
@@ -133,24 +133,26 @@
 
 .arrow-button {
   display: flex;
-  color: black;
-  background-color: grey;
+  color: #232b2b;
+  background-color: #84BAE6;
   border-radius: 20px;
   transition: all .2s ease;
   font-weight: bold;
   cursor: pointer;
   align-items: center;
-  font-size: 14px;
-  width: 75px;
-  margin-top: 10px;
-  margin-left: 30px;
+  font-size: 20px;
+  width: 90px;
+  height: 35px;
+  margin-top: 25px;
+  margin-left: 40px;
+  border: 2px solid #0C2D48
 }
 
 .arrow-button > .arrow {
   width: 6px;
   height: 6px;
-  border-right: 2px solid black;
-  border-bottom: 2px solid black;
+  border-right: 2px solid #0C2D48;
+  border-bottom: 2px solid #0C2D48;
   position: relative;
   transform: rotate(-45deg);
   margin-left: 5px;
@@ -162,12 +164,13 @@
 
 .arrow-button:hover > .arrow {
   transform: rotate(135deg) translate(1px, 1px);
-  color: black;
+  color: #728fce;
   opacity: 1;
 }
 
 
 .arrow-button:hover {
-  background-color: lightgrey;
-  color: black;
+  background-color: #728fce;
+  color: #0C2D48;
+  border: 2px solid #0C2D48
 }
