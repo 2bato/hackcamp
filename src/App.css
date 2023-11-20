@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: ;
 }
 
 .App-diagram {
@@ -27,18 +28,20 @@
 
 
 .App-header {
-  background-color: #84BAE6;
+  background-color: white;
   display: flex;
   flex-direction: row;
   align-content: center;
-  justify-content: center;
+  justify-content: left;
   color: rgb(255, 255, 255);
   padding-block: 2vh;
   font-weight: bolder;
+  margin-left: 30px;
+  margin-top: 5px;
 }
 
 .App-header title {
-  background-color:	#84BAE6;
+  background-color:	white;
   display: inline;
   align-self: center;
   font-size: calc(10px + 2vmin);
@@ -145,7 +148,6 @@
   height: 35px;
   margin-top: 25px;
   margin-left: 40px;
-  border: 2px solid #0C2D48
 }
 
 .arrow-button > .arrow {
@@ -170,7 +172,34 @@
 
 
 .arrow-button:hover {
-  background-color: #728fce;
+  background-color: #84BAE6;
   color: #0C2D48;
-  border: 2px solid #0C2D48
+}
+
+.inspo-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.inspo-header img {
+  width: 70%;
+  height: 50%;
+  border-radius: 5%;
+  margin-top: 50px
+}
+
+.inspo-header .inspo-text {
+  display: flexbox;
+  justify-content: left;
+  align-items: center;
+  margin-left: 200px;
+  width: 100%;
+  font-size: x-large;
+}
+
+h3 {
+  color: #84BAE6;
+
 }
