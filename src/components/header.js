@@ -9,7 +9,7 @@ function Header() {
     <Link to="/" style={{ textDecoration: "none"}}>
   <header className="App-header">
     <img className="App-logo" src={headerlogo} />
-    <title>JointPal</title>
+    <title>JointPal.ai</title>
   </header>
 
     </Link>
