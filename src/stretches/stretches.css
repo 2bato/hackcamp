@@ -1,41 +1,160 @@
 .container {
+    margin-top: 180px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Adjust the height as needed */
+    height: 40vh; 
   }
   
   .image-side {
-    width: 50%; /* Adjust the width as needed */
-    /* Add any additional styles for the image container */
+    width: 30%;
   }
   
   .image-side img {
     width: 100%;
-    height: auto; /* This will keep the aspect ratio of the image */
+    height: 70%; 
   }
   
   .text-side {
-    width: 50%; /* Adjust the width as needed */
-    padding: 20px; /* Adjust the padding as needed */
-    /* Add any additional styles for the text container */
+    width: 50%; 
+    padding: 50px; 
   }
   
   .text-side h1 {
-    font-size: 2rem; /* Adjust the font size as needed */
-    /* Add any additional styles for the header */
+    font-size: 2rem;
   }
   
   .text-side p {
-    font-size: 1rem; /* Adjust the font size as needed */
-    /* Add any additional styles for the paragraph */
+    font-size: 1rem; 
   }
   
   .view-portfolio-button {
     display: inline-block;
-    padding: 10px 20px; /* Adjust the padding as needed */
-    background-color: #000; /* Adjust the background color as needed */
-    color: #fff; /* Adjust the text color as needed */
+    padding: 10px 10px;
+    background-color: #000; 
+    color: #fff; 
     text-decoration: none;
-    /* Add any additional styles for the button */
+  }
+
+
+  .kneegif1{
+    border-radius: 10%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    
+  }
+
+  .kneegif2{
+    border-radius: 10%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    
+  }
+
+  .kneegif3{
+    border-radius: 10%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    
+  }
+
+.kneegif4{
+    border-radius: 10%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    
+  }
+
+  .kneegif5{
+    border-radius: 10%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    
+  }
+
+  .kneegif6{
+    border-radius: 10%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    
+  }
+
+  .hipgif1{
+    border-radius: 10%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    
+  }
+
+  .hipgif2{
+    border-radius: 10%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    
+  }
+  .hipgif4{
+    border-radius: 10%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    
+  }
+  .hipgif3{
+    border-radius: 10%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    
+  }
+
+  .shouldergif1{
+    border-radius: 10%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    
+  }
+
+  .shouldergif2{
+    border-radius: 10%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    
+  }
+  .shouldergif3{
+    border-radius: 10%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    
+  }
+  .shouldergif4{
+    border-radius: 10%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    
   }

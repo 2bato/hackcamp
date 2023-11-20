@@ -13,7 +13,6 @@ import Knee from "./stretches/knee";
 import Hip from "./stretches/hip";
 import Ankle from "./stretches/ankle";
 import Bodymap from "./bodymap";
-import Test from "./stretches/test";
 
 const router = createBrowserRouter([
   {
@@ -51,10 +50,6 @@ const router = createBrowserRouter([
   {
     path: "/bodymap",
     element: <Bodymap />,
-  },
-  {
-    path: "/test",
-    element: <Test />,
   },
   {
     path: "/ankle",
