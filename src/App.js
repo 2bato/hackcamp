@@ -5,14 +5,16 @@ import Bodymap from "./bodymap.js";
 import Diagnosis from "./diagnosis.js";
 import stretchImage from "./newstretch.jpg"
 import { ScrollRestoration } from "react-router-dom";
+import downarrow from "./downarrow.png";
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" />
         <title>JointPal</title>
-        <button className="Log-in-button"> Log in </button>
         <button className="Sign-up-button"> Sign up </button>
+        <button className="Log-in-button"> Log in </button>
       </header>
       <div className="inspo-header">
       <div className="inspo-text">
@@ -23,6 +25,8 @@ function App() {
         <img src={stretchImage} alt="Stretch-Image"></img>
       </div>
       </div>
+      
+      <img className="down-arrow" src={downarrow}></img>
 
       <div className="App-diagram">
         <Bodymap />
