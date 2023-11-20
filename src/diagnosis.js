@@ -28,7 +28,7 @@ function Diagnosis() {
         {
           headers: {
             Authorization:
-              "Bearer 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",
+              "Bearer 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",
             "Content-Type": "application/json",
           },
         }
