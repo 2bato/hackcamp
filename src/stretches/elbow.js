@@ -1,61 +1,58 @@
-
-import React from 'react';
+import React from "react";
 import "../App.css";
 import logo from "../logo.svg";
 import headerlogo from "../stretch-logo.png";
-import Header from '../components/header';
-import BackButton from '../components/BackButton';
-
-
+import Header from "../components/header";
+import BackButton from "../components/BackButton";
+import { ScrollRestoration } from "react-router-dom";
 
 const Elbow = () => {
   return (
     <>
-    <Header />
-    <BackButton />
+      <Header />
+      <BackButton />
 
-    <div>
-      <header className="exercise-header">
-        <title>This is an exercise</title>
-      </header>
+      <div>
+        <header className="exercise-header">
+          <title>This is an exercise</title>
+        </header>
 
-      <div className="row">
-        <div className="box-container">
-          <div>
+        <div className="row">
+          <div className="box-container">
+            <div>
+              <img src={logo} alt="Logo" />
+              <p>Placeholder Image</p>
+            </div>
+          </div>
+
+          <div className="box-description">
             <img src={logo} alt="Logo" />
             <p>Placeholder Image</p>
           </div>
         </div>
-
-        <div className="box-description">
-          <img src={logo} alt="Logo" />
-          <p>Placeholder Image</p>
-        </div>
       </div>
-    </div>
-    
 
-    <div>
-      <header className="exercise-header">
-        <title>This is an exercise</title>
-      </header>
+      <div>
+        <header className="exercise-header">
+          <title>This is an exercise</title>
+        </header>
 
-      <div className="row">
-        <div className="box-container">
-          <div>
+        <div className="row">
+          <div className="box-container">
+            <div>
+              <img src={logo} alt="Logo" />
+              <p>Placeholder Image</p>
+            </div>
+          </div>
+
+          <div className="box-description">
             <img src={logo} alt="Logo" />
             <p>Placeholder Image</p>
           </div>
         </div>
-
-        <div className="box-description">
-          <img src={logo} alt="Logo" />
-          <p>Placeholder Image</p>
-        </div>
+        <ScrollRestoration />
       </div>
-    </div>
     </>
-
   );
 };
 

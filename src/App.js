@@ -4,7 +4,7 @@ import logo from "./stretch-logo.png";
 import Bodymap from "./bodymap.js";
 import Diagnosis from "./diagnosis.js";
 import stretchImage from "./newstretch.jpg"
-
+import { ScrollRestoration } from "react-router-dom";
 function App() {
   return (
     <div className="App">
@@ -26,6 +26,7 @@ function App() {
         <Bodymap />
         <Diagnosis />
       </div>
+      <ScrollRestoration />
     </div>
   );
 }
