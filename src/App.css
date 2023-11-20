@@ -203,6 +203,7 @@ h3 {
 }
 
 .down-arrow {
+  margin-top: -15px;
   width: 2%;
   margin-bottom: 25px;
 }
@@ -211,7 +212,7 @@ h3 {
 
 .Sign-up-button {
   display: flex;
-  margin-left: 950px;
+  margin-left: 980px;
   border-radius: 1.5vmin;
   width: fit-content;
   height: fit-content;
@@ -233,7 +234,7 @@ h3 {
 
 .Log-in-button {
   display: flex;
-  margin-left: 1030px;
+  margin-left: 1060px;
   border-radius: 1.5vmin;
   width: fit-content;
   height: fit-content;
